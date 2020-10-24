@@ -1,0 +1,74 @@
+html{
+    height: 100%;
+    background-color: #3d3d3d;
+    font-family: Calibri, Helvetica, sans-serif;
+}
+
+p{
+    color: #c5eff7;
+}
+
+body{
+    height: 100%;
+    margin: 0px;
+}
+
+#derp{
+    color: aqua;
+}
+
+.sideBar{
+    display: flex;
+    float: left;
+    width: 20%;
+    max-width: 150px;
+    height: inherit;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: center;
+    background-color: #171717;
+    
+
+}
+
+#mainLogo{
+    width: 90%;
+    height: auto;
+    justify-self: start;
+    align-self: center;
+    padding: 5%
+}
+
+.sideBarItem{
+    color: #c5eff7;
+    width: 100%;
+    border: none;
+    background: none;
+    align-self: stretch;
+}
+
+sideBarItem:hover{
+    color:aqua;
+}
+
+.mainContent{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    
+}
+
+.textBox{
+
+    width: 70%;
+    height: 70%;
+
+    border: 5px solid #c5eff7;
+    border-radius: 15px;
+}
+
